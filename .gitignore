@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.DS_Store
+# Model artifacts and metrics are generated locally by the training script.
+models/*.joblib
+models/metrics.json
